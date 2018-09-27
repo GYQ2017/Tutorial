@@ -88,6 +88,8 @@ tar -zxvf ./cudnn-8.0-linux-x64-v6.0.tgz -C $CUDA_HOME/../
 
 #### 验证安装
 
+---
+
 1. 启动python命令行：`python3`；
 2. 引入tensorflow：`import tensorflow as tf`；
 3. 查看tensorflow版本：`tf.__version__`；
