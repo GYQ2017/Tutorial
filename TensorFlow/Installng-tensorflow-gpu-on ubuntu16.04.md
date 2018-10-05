@@ -53,7 +53,7 @@ export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$CUDA_HOME/extras/CUPTI/lib64:$LD_LIBRAR
 export PATH=$CUDA_HOME/bin:$PATH
 ```
 
-4. 输入命令`source /root/.bashrc`使环境变量生效；
+4. 输入命令`source ~/.bashrc`使环境变量生效；
 
 5. 输入命令`nvcc -V`查看版本号以验证CUDA是否安装成功
 
